@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Portfolio</div>
+      <nav class="navbar">
+        <i class="bx bx-menu-alt-right" id="menu-btn"></i>
+        <ul class="nav-links">
+          <li><a  href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi! my name is</h3>
+        <h1 style="color: #0837b7">Va Koemleng.</h1>
+        <h2>Computer science student.</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta fuga,
+          assumenda mollitia corrupti commodi voluptates culpa facilis et.
+          Doloremque dolores nam distinctio corrupti itaque perferendis harum
+          dolorum. Natus, eum obcaecati.
+        </p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-square'></i></a></li>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+        </div>
+        <a href="#" class="cv">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/011/153/368/small_2x/3d-website-developer-working-on-laptop-illustration-png.png" alt="">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/011/153/368/small_2x/3d-website-developer-working-on-laptop-illustration-png.png" alt="">
+      </div>
+      <div class="about-content">
+        <h1 class="heading">About <span style="color: #0837b7;">Me</span></h1>
+        <h2>Computer science student.</h2>
+        <p>Lorem, ipsum dolor sit amet 
+          consectetur adipisicing elit. Nam et 
+          sunt cum, magnam, esse numquam sed veniam magni
+           impedit reiciendis asperiores ipsa aspernatur
+            praesentium! Harum obcaecati veniam tenetur 
+            voluptatem laborum impedit? Obcaecati possimus in debitis ipsa voluptatem quae nisi animi, 
+          facere inventore voluptate, quia consequatur. Similique quia excepturi voluptates. Consectetur.</p>
+             <a href="" class="btn">More about me</a>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+        <h1 class="heading" style="text-align: center;">My <span style="color: #0837b7;">Skills</span></h1>
+        <div class="main-content">
+          <div class="program-skill">
+            <h2 class="title">Program skills</h2>
+            <div class="skill">
+              <div class="subject">Html5</div>
+              <div class="progres-bar" value="94%">
+                <div class="progres-line" style="max-width: 94%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="subject">CSS3</div>
+              <div class="progres-bar" value="84%">
+                <div class="progres-line" style="max-width: 84%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="subject">JS</div>
+              <div class="progres-bar" value="60%">
+                <div class="progres-line" style="max-width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="subject">React js</div>
+              <div class="progres-bar" value="70%">
+                <div class="progres-line" style="max-width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="design-skill">
+            <h2 class="title">Design skills</h2>
+            <div class="skill">
+              <div class="subject">Photoshop</div>
+              <div class="progres-bar" value="60%">
+                <div class="progres-line" style="max-width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="subject">Figma</div>
+              <div class="progres-bar" value="20%">
+                <div class="progres-line" style="max-width: 20%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="subject">Canva</div>
+              <div class="progres-bar" value="40%">
+                <div class="progres-line" style="max-width: 40%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="subject">Adobe Illustrator</div>
+              <div class="progres-bar" value="30%">
+                <div class="progres-line" style="max-width: 30%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span style="color: #0837b7;">Me</span></h2>
+      <form action="https://formspree.io/f/{your_form_id}" method="POST">
+          <div class="input-box">
+              <input type="text" name="name" required>
+              <label>Name</label>
+          </div>
+          <div class="input-box">
+              <input type="email" name="email" required>
+              <label>Email</label>
+          </div>
+          <div class="input-box">
+              <textarea name="message" required></textarea>
+              <label>Message</label>
+          </div>
+          <input type="submit" value="Send">
+      </form>
+  </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
